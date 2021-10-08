@@ -1,9 +1,9 @@
 package com.company;
 
 public class Taxi {
-    int possibleNumberOfPassengers;
-    String company;
-    boolean hasOpen24Hours;
+    private int possibleNumberOfPassengers;
+    private String company;
+    private boolean hasOpen24Hours;
 
     public int getPossibleNumberOfPassengers() {
         return possibleNumberOfPassengers;
