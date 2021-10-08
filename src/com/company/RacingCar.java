@@ -1,9 +1,9 @@
 package com.company;
 
 public class RacingCar extends Car {
-    String team;
-    int number;
-    int horsePower;
+    private String team;
+    private int number;
+    private int horsePower;
 
     @Override
     public void drive() {
